@@ -1,0 +1,54 @@
+{
+  "name": "avet-mobile-hd",
+  "version": "1.0.0",
+  "description": "mobile hd solution for avet",
+  "avetPlugin": {
+    "name": "mobileHD",
+    "dependencies": [
+      "styledJsx"
+    ]
+  },
+  "files": [
+    "config",
+    "output"
+  ],
+  "keywords": [
+    "avet",
+    "avetPlugin",
+    "avet-plugin",
+    "mobile",
+    "hd"
+  ],
+  "scripts": {
+    "test": "avet-bin dev --rootDir ./test",
+    "build": "avet-bin build",
+    "prepublish": "avet-bin build"
+  },
+  "dependencies": {
+    "postcss-adaptive": "^0.5.0"
+  },
+  "devDependencies": {
+    "avet": "^1.0.0-12",
+    "avet-bin": "^1.0.0-12",
+    "babel-eslint": "^8.0.2",
+    "react": "^16.1.1",
+    "eslint": "^4.11.0",
+    "eslint-config-avet": "^0.3.9"
+  },
+  "tnpm": {
+    "mode": "npm"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avetjs/avet-mobile-hd"
+  },
+  "bugs": {
+    "url": "https://github.com/avetjs/avet/issues"
+  },
+  "homepage": "http://avetjs.github.io/avet/",
+  "author": "okoala <dapixp@gmail.com>",
+  "license": "MIT"
+}
